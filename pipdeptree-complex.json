@@ -1,0 +1,478 @@
+[
+    {
+        "key": "colour",
+        "package_name": "colour",
+        "installed_version": "0.1.5",
+        "required_version": "0.1.5",
+        "dependencies": []
+    },
+    {
+        "key": "ipython",
+        "package_name": "ipython",
+        "installed_version": "8.24.0",
+        "required_version": "8.24.0",
+        "dependencies": [
+            {
+                "key": "decorator",
+                "package_name": "decorator",
+                "installed_version": "5.1.1",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "jedi",
+                "package_name": "jedi",
+                "installed_version": "0.19.1",
+                "required_version": ">=0.16",
+                "dependencies": [
+                    {
+                        "key": "parso",
+                        "package_name": "parso",
+                        "installed_version": "0.8.4",
+                        "required_version": ">=0.8.3,<0.9.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "matplotlib-inline",
+                "package_name": "matplotlib-inline",
+                "installed_version": "0.1.7",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "traitlets",
+                        "package_name": "traitlets",
+                        "installed_version": "5.14.3",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "pexpect",
+                "package_name": "pexpect",
+                "installed_version": "4.9.0",
+                "required_version": ">4.3",
+                "dependencies": [
+                    {
+                        "key": "ptyprocess",
+                        "package_name": "ptyprocess",
+                        "installed_version": "0.7.0",
+                        "required_version": ">=0.5",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "prompt-toolkit",
+                "package_name": "prompt-toolkit",
+                "installed_version": "3.0.43",
+                "required_version": ">=3.0.41,<3.1.0",
+                "dependencies": [
+                    {
+                        "key": "wcwidth",
+                        "package_name": "wcwidth",
+                        "installed_version": "0.2.13",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "pygments",
+                "package_name": "Pygments",
+                "installed_version": "2.18.0",
+                "required_version": ">=2.4.0",
+                "dependencies": []
+            },
+            {
+                "key": "stack-data",
+                "package_name": "stack-data",
+                "installed_version": "0.6.3",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "asttokens",
+                        "package_name": "asttokens",
+                        "installed_version": "2.4.1",
+                        "required_version": ">=2.1.0",
+                        "dependencies": [
+                            {
+                                "key": "six",
+                                "package_name": "six",
+                                "installed_version": "1.16.0",
+                                "required_version": ">=1.12.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "executing",
+                        "package_name": "executing",
+                        "installed_version": "2.0.1",
+                        "required_version": ">=1.2.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pure-eval",
+                        "package_name": "pure-eval",
+                        "installed_version": "0.2.2",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "traitlets",
+                "package_name": "traitlets",
+                "installed_version": "5.14.3",
+                "required_version": ">=5.13.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "isosurfaces",
+        "package_name": "isosurfaces",
+        "installed_version": "0.1.2",
+        "required_version": "0.1.2",
+        "dependencies": [
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.26.4",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "manimpango",
+        "package_name": "ManimPango",
+        "installed_version": "0.4.4",
+        "required_version": "0.4.4",
+        "dependencies": []
+    },
+    {
+        "key": "mapbox-earcut",
+        "package_name": "mapbox-earcut",
+        "installed_version": "1.0.1",
+        "required_version": "1.0.1",
+        "dependencies": [
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.26.4",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "matplotlib",
+        "package_name": "matplotlib",
+        "installed_version": "3.8.4",
+        "required_version": "3.8.4",
+        "dependencies": [
+            {
+                "key": "contourpy",
+                "package_name": "contourpy",
+                "installed_version": "1.2.1",
+                "required_version": ">=1.0.1",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.26.4",
+                        "required_version": ">=1.20",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "cycler",
+                "package_name": "cycler",
+                "installed_version": "0.12.1",
+                "required_version": ">=0.10",
+                "dependencies": []
+            },
+            {
+                "key": "fonttools",
+                "package_name": "fonttools",
+                "installed_version": "4.51.0",
+                "required_version": ">=4.22.0",
+                "dependencies": []
+            },
+            {
+                "key": "kiwisolver",
+                "package_name": "kiwisolver",
+                "installed_version": "1.4.5",
+                "required_version": ">=1.3.1",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.26.4",
+                "required_version": ">=1.21",
+                "dependencies": []
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "24.0",
+                "required_version": ">=20.0",
+                "dependencies": []
+            },
+            {
+                "key": "pillow",
+                "package_name": "pillow",
+                "installed_version": "10.3.0",
+                "required_version": ">=8",
+                "dependencies": []
+            },
+            {
+                "key": "pyparsing",
+                "package_name": "pyparsing",
+                "installed_version": "3.1.2",
+                "required_version": ">=2.3.1",
+                "dependencies": []
+            },
+            {
+                "key": "python-dateutil",
+                "package_name": "python-dateutil",
+                "installed_version": "2.9.0.post0",
+                "required_version": ">=2.7",
+                "dependencies": [
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.16.0",
+                        "required_version": ">=1.5",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "moderngl-window",
+        "package_name": "moderngl-window",
+        "installed_version": "2.4.6",
+        "required_version": "2.4.6",
+        "dependencies": [
+            {
+                "key": "moderngl",
+                "package_name": "moderngl",
+                "installed_version": "5.10.0",
+                "required_version": "<6",
+                "dependencies": [
+                    {
+                        "key": "glcontext",
+                        "package_name": "glcontext",
+                        "installed_version": "2.5.0",
+                        "required_version": ">=2.5.0,<3",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.26.4",
+                "required_version": ">=1.16,<2",
+                "dependencies": []
+            },
+            {
+                "key": "pillow",
+                "package_name": "pillow",
+                "installed_version": "10.3.0",
+                "required_version": ">=10.0.1",
+                "dependencies": []
+            },
+            {
+                "key": "pyglet",
+                "package_name": "pyglet",
+                "installed_version": "2.0.15",
+                "required_version": ">=2.0.0",
+                "dependencies": []
+            },
+            {
+                "key": "pyrr",
+                "package_name": "pyrr",
+                "installed_version": "0.10.3",
+                "required_version": ">=0.10.3,<1",
+                "dependencies": [
+                    {
+                        "key": "multipledispatch",
+                        "package_name": "multipledispatch",
+                        "installed_version": "1.0.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.26.4",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pip",
+        "package_name": "pip",
+        "installed_version": "24.0",
+        "required_version": "24.0",
+        "dependencies": []
+    },
+    {
+        "key": "pydub",
+        "package_name": "pydub",
+        "installed_version": "0.25.1",
+        "required_version": "0.25.1",
+        "dependencies": []
+    },
+    {
+        "key": "pyopengl",
+        "package_name": "PyOpenGL",
+        "installed_version": "3.1.7",
+        "required_version": "3.1.7",
+        "dependencies": []
+    },
+    {
+        "key": "pyperclip",
+        "package_name": "pyperclip",
+        "installed_version": "1.8.2",
+        "required_version": "1.8.2",
+        "dependencies": []
+    },
+    {
+        "key": "pyyaml",
+        "package_name": "PyYAML",
+        "installed_version": "6.0.1",
+        "required_version": "6.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "rich",
+        "package_name": "rich",
+        "installed_version": "13.7.1",
+        "required_version": "13.7.1",
+        "dependencies": [
+            {
+                "key": "markdown-it-py",
+                "package_name": "markdown-it-py",
+                "installed_version": "3.0.0",
+                "required_version": ">=2.2.0",
+                "dependencies": [
+                    {
+                        "key": "mdurl",
+                        "package_name": "mdurl",
+                        "installed_version": "0.1.2",
+                        "required_version": "~=0.1",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "pygments",
+                "package_name": "Pygments",
+                "installed_version": "2.18.0",
+                "required_version": ">=2.13.0,<3.0.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "scipy",
+        "package_name": "scipy",
+        "installed_version": "1.13.0",
+        "required_version": "1.13.0",
+        "dependencies": [
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.26.4",
+                "required_version": ">=1.22.4,<2.3",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "screeninfo",
+        "package_name": "screeninfo",
+        "installed_version": "0.8.1",
+        "required_version": "0.8.1",
+        "dependencies": [
+            {
+                "key": "cython",
+                "package_name": "Cython",
+                "installed_version": "3.0.10",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "pyobjc-framework-cocoa",
+                "package_name": "pyobjc-framework-Cocoa",
+                "installed_version": "10.2",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "pyobjc-core",
+                        "package_name": "pyobjc-core",
+                        "installed_version": "10.2",
+                        "required_version": ">=10.2",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "skia-pathops",
+        "package_name": "skia-pathops",
+        "installed_version": "0.8.0.post1",
+        "required_version": "0.8.0.post1",
+        "dependencies": []
+    },
+    {
+        "key": "svgelements",
+        "package_name": "svgelements",
+        "installed_version": "1.9.6",
+        "required_version": "1.9.6",
+        "dependencies": []
+    },
+    {
+        "key": "sympy",
+        "package_name": "sympy",
+        "installed_version": "1.12",
+        "required_version": "1.12",
+        "dependencies": [
+            {
+                "key": "mpmath",
+                "package_name": "mpmath",
+                "installed_version": "1.3.0",
+                "required_version": ">=0.19",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "tqdm",
+        "package_name": "tqdm",
+        "installed_version": "4.66.4",
+        "required_version": "4.66.4",
+        "dependencies": []
+    },
+    {
+        "key": "validators",
+        "package_name": "validators",
+        "installed_version": "0.28.1",
+        "required_version": "0.28.1",
+        "dependencies": []
+    }
+]
