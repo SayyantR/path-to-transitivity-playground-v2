@@ -1,0 +1,34 @@
+
+> Task :dependencies
+
+------------------------------------------------------------
+Root project 'gradle-simple'
+------------------------------------------------------------
+
+runtimeClasspath - Runtime classpath of source set 'main'.
++--- com.google.guava:guava:29.0-jre
+|    +--- com.google.guava:failureaccess:1.0.1
+|    +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+|    +--- com.google.code.findbugs:jsr305:3.0.2
+|    +--- org.checkerframework:checker-qual:2.11.1
+|    +--- com.google.errorprone:error_prone_annotations:2.3.4
+|    \--- com.google.j2objc:j2objc-annotations:1.3
++--- com.google.guava:guava:{strictly 29.0-jre} -> 29.0-jre (c)
++--- com.google.guava:failureaccess:{strictly 1.0.1} -> 1.0.1 (c)
++--- com.google.guava:listenablefuture:{strictly 9999.0-empty-to-avoid-conflict-with-guava} -> 9999.0-empty-to-avoid-conflict-with-guava (c)
++--- com.google.code.findbugs:jsr305:{strictly 3.0.2} -> 3.0.2 (c)
++--- org.checkerframework:checker-qual:{strictly 2.11.1} -> 2.11.1 (c)
++--- com.google.errorprone:error_prone_annotations:{strictly 2.3.4} -> 2.3.4 (c)
+\--- com.google.j2objc:j2objc-annotations:{strictly 1.3} -> 1.3 (c)
+
+(c) - A dependency constraint, not a dependency. The dependency affected by the constraint occurs elsewhere in the tree.
+A web-based, searchable dependency report is available by adding the --scan option.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.7/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 324ms
+1 actionable task: 1 executed
