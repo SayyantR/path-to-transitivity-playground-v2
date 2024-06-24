@@ -1,0 +1,885 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:3aec8b68-3a11-4e61-85aa-e0c45fe829f3",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-06-24T18:00:59Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "10.7.0",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@10.7.0",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@10.7.0",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "docs",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:pypi/docs@latest",
+      "purl": "pkg:pypi/docs@latest"
+    }
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "furo",
+      "version": "2020.10.5b9",
+      "purl": "pkg:pypi/furo@2020.10.5b9",
+      "type": "library",
+      "bom-ref": "pkg:pypi/furo@2020.10.5b9",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-mHApuY"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "beautifulsoup4",
+      "version": "4.12.3",
+      "purl": "pkg:pypi/beautifulsoup4@4.12.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/beautifulsoup4@4.12.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "soupsieve",
+      "version": "2.5",
+      "purl": "pkg:pypi/soupsieve@2.5",
+      "type": "library",
+      "bom-ref": "pkg:pypi/soupsieve@2.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "jinja2",
+      "version": "3.1.4",
+      "purl": "pkg:pypi/jinja2@3.1.4",
+      "type": "library",
+      "bom-ref": "pkg:pypi/jinja2@3.1.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-mHApuY"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "MarkupSafe",
+      "version": "2.1.5",
+      "purl": "pkg:pypi/markupsafe@2.1.5",
+      "type": "library",
+      "bom-ref": "pkg:pypi/markupsafe@2.1.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pygments",
+      "version": "2.18.0",
+      "purl": "pkg:pypi/pygments@2.18.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pygments@2.18.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-mHApuY"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sphinx-copybutton",
+      "version": "0.5.2",
+      "purl": "pkg:pypi/sphinx-copybutton@0.5.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sphinx-copybutton@0.5.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-mHApuY"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "Sphinx",
+      "version": "3.0.3",
+      "purl": "pkg:pypi/sphinx@3.0.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sphinx@3.0.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sphinxcontrib-applehelp",
+      "version": "1.0.8",
+      "purl": "pkg:pypi/sphinxcontrib-applehelp@1.0.8",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sphinxcontrib-applehelp@1.0.8",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sphinxcontrib-devhelp",
+      "version": "1.0.6",
+      "purl": "pkg:pypi/sphinxcontrib-devhelp@1.0.6",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sphinxcontrib-devhelp@1.0.6",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sphinxcontrib-jsmath",
+      "version": "1.0.1",
+      "purl": "pkg:pypi/sphinxcontrib-jsmath@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sphinxcontrib-jsmath@1.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sphinxcontrib-htmlhelp",
+      "version": "2.0.5",
+      "purl": "pkg:pypi/sphinxcontrib-htmlhelp@2.0.5",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sphinxcontrib-htmlhelp@2.0.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sphinxcontrib-serializinghtml",
+      "version": "1.1.10",
+      "purl": "pkg:pypi/sphinxcontrib-serializinghtml@1.1.10",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sphinxcontrib-serializinghtml@1.1.10",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sphinxcontrib-qthelp",
+      "version": "1.0.7",
+      "purl": "pkg:pypi/sphinxcontrib-qthelp@1.0.7",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sphinxcontrib-qthelp@1.0.7",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "docutils",
+      "version": "0.21.2",
+      "purl": "pkg:pypi/docutils@0.21.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/docutils@0.21.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "snowballstemmer",
+      "version": "2.2.0",
+      "purl": "pkg:pypi/snowballstemmer@2.2.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/snowballstemmer@2.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "Babel",
+      "version": "2.15.0",
+      "purl": "pkg:pypi/babel@2.15.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/babel@2.15.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "alabaster",
+      "version": "0.7.16",
+      "purl": "pkg:pypi/alabaster@0.7.16",
+      "type": "library",
+      "bom-ref": "pkg:pypi/alabaster@0.7.16",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "imagesize",
+      "version": "1.4.1",
+      "purl": "pkg:pypi/imagesize@1.4.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/imagesize@1.4.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "requests",
+      "version": "2.32.3",
+      "purl": "pkg:pypi/requests@2.32.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/requests@2.32.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "charset-normalizer",
+      "version": "3.3.2",
+      "purl": "pkg:pypi/charset-normalizer@3.3.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/charset-normalizer@3.3.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "idna",
+      "version": "3.7",
+      "purl": "pkg:pypi/idna@3.7",
+      "type": "library",
+      "bom-ref": "pkg:pypi/idna@3.7",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "urllib3",
+      "version": "2.2.2",
+      "purl": "pkg:pypi/urllib3@2.2.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/urllib3@2.2.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "certifi",
+      "version": "2024.6.2",
+      "purl": "pkg:pypi/certifi@2024.6.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/certifi@2024.6.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "setuptools",
+      "version": "69.2.0",
+      "purl": "pkg:pypi/setuptools@69.2.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/setuptools@69.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "packaging",
+      "version": "24.1",
+      "purl": "pkg:pypi/packaging@24.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/packaging@24.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/docs@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/beautifulsoup4@4.12.3",
+      "dependsOn": [
+        "pkg:pypi/soupsieve@2.5"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/soupsieve@2.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/furo@2020.10.5b9",
+      "dependsOn": [
+        "pkg:pypi/beautifulsoup4@4.12.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/markupsafe@2.1.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jinja2@3.1.4",
+      "dependsOn": [
+        "pkg:pypi/markupsafe@2.1.5"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pygments@2.18.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sphinx@3.0.3",
+      "dependsOn": [
+        "pkg:pypi/alabaster@0.7.16",
+        "pkg:pypi/babel@2.15.0",
+        "pkg:pypi/docutils@0.21.2",
+        "pkg:pypi/imagesize@1.4.1",
+        "pkg:pypi/jinja2@3.1.4",
+        "pkg:pypi/packaging@24.1",
+        "pkg:pypi/pygments@2.18.0",
+        "pkg:pypi/requests@2.32.3",
+        "pkg:pypi/setuptools@69.2.0",
+        "pkg:pypi/snowballstemmer@2.2.0",
+        "pkg:pypi/sphinxcontrib-applehelp@1.0.8",
+        "pkg:pypi/sphinxcontrib-devhelp@1.0.6",
+        "pkg:pypi/sphinxcontrib-htmlhelp@2.0.5",
+        "pkg:pypi/sphinxcontrib-jsmath@1.0.1",
+        "pkg:pypi/sphinxcontrib-qthelp@1.0.7",
+        "pkg:pypi/sphinxcontrib-serializinghtml@1.1.10"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/sphinxcontrib-applehelp@1.0.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sphinxcontrib-devhelp@1.0.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sphinxcontrib-jsmath@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sphinxcontrib-htmlhelp@2.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sphinxcontrib-serializinghtml@1.1.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sphinxcontrib-qthelp@1.0.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/docutils@0.21.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/snowballstemmer@2.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/babel@2.15.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/alabaster@0.7.16",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/imagesize@1.4.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/requests@2.32.3",
+      "dependsOn": [
+        "pkg:pypi/certifi@2024.6.2",
+        "pkg:pypi/charset-normalizer@3.3.2",
+        "pkg:pypi/idna@3.7",
+        "pkg:pypi/urllib3@2.2.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/charset-normalizer@3.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/idna@3.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/urllib3@2.2.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/certifi@2024.6.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/setuptools@69.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/packaging@24.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sphinx-copybutton@0.5.2",
+      "dependsOn": [
+        "pkg:pypi/sphinx@3.0.3"
+      ]
+    }
+  ]
+}
