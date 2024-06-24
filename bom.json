@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:caad5656-4bf6-4bf9-b437-5e3e1351d880",
+  "serialNumber": "urn:uuid:b81f3990-2a16-49a1-a1e4-35b0eea5da3e",
   "version": 1,
   "metadata": {
-    "timestamp": "2024-06-22T22:56:50Z",
+    "timestamp": "2024-06-23T21:45:07Z",
     "tools": {
       "components": [
         {
@@ -30,145 +30,15 @@
       }
     ],
     "component": {
-      "name": "gradle",
+      "group": "",
+      "name": "path-to-transitivity-playground-v2",
+      "version": "latest",
       "type": "application",
-      "group": "com.github.jitpack",
-      "version": "2.0",
-      "properties": [
-        {
-          "name": "buildFile",
-          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/gradle/build.gradle"
-        },
-        {
-          "name": "projectDir",
-          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/gradle"
-        },
-        {
-          "name": "rootDir",
-          "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/gradle"
-        }
-      ],
-      "purl": "pkg:maven/com.github.jitpack/gradle@2.0?type=jar",
-      "bom-ref": "pkg:maven/com.github.jitpack/gradle@2.0?type=jar",
-      "components": [
-        {
-          "group": "",
-          "name": "path-to-transitivity-playground-v2",
-          "version": "latest",
-          "type": "application",
-          "bom-ref": "pkg:pypi/path-to-transitivity-playground-v2@latest",
-          "purl": "pkg:pypi/path-to-transitivity-playground-v2@latest"
-        },
-        {
-          "group": "",
-          "name": "path-to-transitivity-playground-v2",
-          "version": "latest",
-          "type": "application",
-          "bom-ref": "pkg:gem/path-to-transitivity-playground-v2@latest",
-          "purl": "pkg:gem/path-to-transitivity-playground-v2@latest"
-        }
-      ]
+      "bom-ref": "pkg:pypi/path-to-transitivity-playground-v2@latest",
+      "purl": "pkg:pypi/path-to-transitivity-playground-v2@latest"
     }
   },
   "components": [
-    {
-      "group": "com.google.guava",
-      "name": "guava",
-      "version": "29.0-jre",
-      "purl": "pkg:maven/com.google.guava/guava@29.0-jre?type=jar",
-      "type": "library",
-      "bom-ref": "pkg:maven/com.google.guava/guava@29.0-jre?type=jar",
-      "properties": [
-        {
-          "name": "GradleProfileName",
-          "value": "compileClasspath"
-        }
-      ]
-    },
-    {
-      "group": "com.google.guava",
-      "name": "failureaccess",
-      "version": "1.0.1",
-      "purl": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
-      "type": "library",
-      "bom-ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
-      "properties": [
-        {
-          "name": "GradleProfileName",
-          "value": "compileClasspath"
-        }
-      ]
-    },
-    {
-      "group": "com.google.guava",
-      "name": "listenablefuture",
-      "version": "9999.0-empty-to-avoid-conflict-with-guava",
-      "purl": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
-      "type": "library",
-      "bom-ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
-      "properties": [
-        {
-          "name": "GradleProfileName",
-          "value": "compileClasspath"
-        }
-      ]
-    },
-    {
-      "group": "com.google.code.findbugs",
-      "name": "jsr305",
-      "version": "3.0.2",
-      "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
-      "type": "library",
-      "bom-ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
-      "properties": [
-        {
-          "name": "GradleProfileName",
-          "value": "compileClasspath"
-        }
-      ]
-    },
-    {
-      "group": "org.checkerframework",
-      "name": "checker-qual",
-      "version": "2.11.1",
-      "purl": "pkg:maven/org.checkerframework/checker-qual@2.11.1?type=jar",
-      "type": "library",
-      "bom-ref": "pkg:maven/org.checkerframework/checker-qual@2.11.1?type=jar",
-      "properties": [
-        {
-          "name": "GradleProfileName",
-          "value": "compileClasspath"
-        }
-      ]
-    },
-    {
-      "group": "com.google.errorprone",
-      "name": "error_prone_annotations",
-      "version": "2.3.4",
-      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
-      "type": "library",
-      "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
-      "properties": [
-        {
-          "name": "GradleProfileName",
-          "value": "compileClasspath"
-        }
-      ]
-    },
-    {
-      "group": "com.google.j2objc",
-      "name": "j2objc-annotations",
-      "version": "1.3",
-      "purl": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar",
-      "type": "library",
-      "bom-ref": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar",
-      "properties": [
-        {
-          "name": "GradleProfileName",
-          "value": "compileClasspath"
-        }
-      ]
-    },
     {
       "group": "",
       "name": "pyopengl",
@@ -184,7 +54,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -211,7 +81,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -238,7 +108,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -265,7 +135,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -724,7 +594,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -778,7 +648,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -805,7 +675,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -1048,7 +918,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -1210,7 +1080,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -1237,7 +1107,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -1264,7 +1134,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -1345,7 +1215,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -1372,7 +1242,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -1480,7 +1350,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -1507,7 +1377,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -1534,7 +1404,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -1588,7 +1458,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -1615,7 +1485,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-p2HiHb"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-q4gOzX"
             }
           ]
         }
@@ -1626,62 +1496,14 @@
           "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/requirements.txt"
         }
       ]
-    },
-    {
-      "group": "actions",
-      "name": "checkout",
-      "version": "v3",
-      "purl": "pkg:github/actions/checkout@v3",
-      "type": "application",
-      "bom-ref": "pkg:github/actions/checkout@v3"
     }
   ],
-  "services": [],
   "dependencies": [
-    {
-      "ref": "pkg:maven/com.github.jitpack/gradle@2.0?type=jar",
-      "dependsOn": [
-        "pkg:maven/com.google.guava/guava@29.0-jre?type=jar"
-      ]
-    },
-    {
-      "ref": "pkg:maven/com.google.guava/guava@29.0-jre?type=jar",
-      "dependsOn": [
-        "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
-        "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
-        "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
-        "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
-        "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar",
-        "pkg:maven/org.checkerframework/checker-qual@2.11.1?type=jar"
-      ]
-    },
-    {
-      "ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
-      "dependsOn": []
-    },
-    {
-      "ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
-      "dependsOn": []
-    },
-    {
-      "ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
-      "dependsOn": []
-    },
-    {
-      "ref": "pkg:maven/org.checkerframework/checker-qual@2.11.1?type=jar",
-      "dependsOn": []
-    },
-    {
-      "ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
-      "dependsOn": []
-    },
-    {
-      "ref": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar",
-      "dependsOn": []
-    },
     {
       "ref": "pkg:pypi/path-to-transitivity-playground-v2@latest",
       "dependsOn": [
+        "pkg:pypi/pyopengl@3.1.7",
+        "pkg:pypi/pyyaml@6.0.1",
         "pkg:pypi/colour@0.1.5",
         "pkg:pypi/ipython@8.25.0",
         "pkg:pypi/isosurfaces@0.1.2",
@@ -1691,9 +1513,7 @@
         "pkg:pypi/prompt-toolkit@3.0.47",
         "pkg:pypi/pydub@0.25.1",
         "pkg:pypi/pygments@2.18.0",
-        "pkg:pypi/pyopengl@3.1.7",
         "pkg:pypi/pyperclip@1.9.0",
-        "pkg:pypi/pyyaml@6.0.1",
         "pkg:pypi/rich@13.7.1",
         "pkg:pypi/scipy@1.13.1",
         "pkg:pypi/screeninfo@0.8.1",
@@ -1723,9 +1543,7 @@
     },
     {
       "ref": "pkg:pypi/jedi@0.19.1",
-      "dependsOn": [
-        "pkg:pypi/parso@0.8.4"
-      ]
+      "dependsOn": ["pkg:pypi/parso@0.8.4"]
     },
     {
       "ref": "pkg:pypi/parso@0.8.4",
@@ -1733,9 +1551,7 @@
     },
     {
       "ref": "pkg:pypi/matplotlib-inline@0.1.7",
-      "dependsOn": [
-        "pkg:pypi/traitlets@5.14.3"
-      ]
+      "dependsOn": ["pkg:pypi/traitlets@5.14.3"]
     },
     {
       "ref": "pkg:pypi/traitlets@5.14.3",
@@ -1743,9 +1559,7 @@
     },
     {
       "ref": "pkg:pypi/prompt-toolkit@3.0.47",
-      "dependsOn": [
-        "pkg:pypi/wcwidth@0.2.13"
-      ]
+      "dependsOn": ["pkg:pypi/wcwidth@0.2.13"]
     },
     {
       "ref": "pkg:pypi/wcwidth@0.2.13",
@@ -1769,9 +1583,7 @@
     },
     {
       "ref": "pkg:pypi/asttokens@2.4.1",
-      "dependsOn": [
-        "pkg:pypi/six@1.16.0"
-      ]
+      "dependsOn": ["pkg:pypi/six@1.16.0"]
     },
     {
       "ref": "pkg:pypi/six@1.16.0",
@@ -1787,9 +1599,7 @@
     },
     {
       "ref": "pkg:pypi/pexpect@4.9.0",
-      "dependsOn": [
-        "pkg:pypi/ptyprocess@0.7.0"
-      ]
+      "dependsOn": ["pkg:pypi/ptyprocess@0.7.0"]
     },
     {
       "ref": "pkg:pypi/ptyprocess@0.7.0",
@@ -1815,21 +1625,15 @@
     },
     {
       "ref": "pkg:pypi/isosurfaces@0.1.2",
-      "dependsOn": [
-        "pkg:pypi/numpy@1.26.4"
-      ]
+      "dependsOn": ["pkg:pypi/numpy@1.26.4"]
     },
     {
       "ref": "pkg:pypi/mapbox-earcut@1.0.1",
-      "dependsOn": [
-        "pkg:pypi/numpy@1.26.4"
-      ]
+      "dependsOn": ["pkg:pypi/numpy@1.26.4"]
     },
     {
       "ref": "pkg:pypi/contourpy@1.2.1",
-      "dependsOn": [
-        "pkg:pypi/numpy@1.26.4"
-      ]
+      "dependsOn": ["pkg:pypi/numpy@1.26.4"]
     },
     {
       "ref": "pkg:pypi/cycler@0.12.1",
@@ -1857,9 +1661,7 @@
     },
     {
       "ref": "pkg:pypi/python-dateutil@2.9.0.post0",
-      "dependsOn": [
-        "pkg:pypi/six@1.16.0"
-      ]
+      "dependsOn": ["pkg:pypi/six@1.16.0"]
     },
     {
       "ref": "pkg:pypi/matplotlib@3.9.0",
@@ -1877,9 +1679,7 @@
     },
     {
       "ref": "pkg:pypi/moderngl@5.10.0",
-      "dependsOn": [
-        "pkg:pypi/glcontext@2.5.0"
-      ]
+      "dependsOn": ["pkg:pypi/glcontext@2.5.0"]
     },
     {
       "ref": "pkg:pypi/glcontext@2.5.0",
@@ -1891,10 +1691,7 @@
     },
     {
       "ref": "pkg:pypi/pyrr@0.10.3",
-      "dependsOn": [
-        "pkg:pypi/multipledispatch@1.0.0",
-        "pkg:pypi/numpy@1.26.4"
-      ]
+      "dependsOn": ["pkg:pypi/multipledispatch@1.0.0", "pkg:pypi/numpy@1.26.4"]
     },
     {
       "ref": "pkg:pypi/multipledispatch@1.0.0",
@@ -1920,9 +1717,7 @@
     },
     {
       "ref": "pkg:pypi/markdown-it-py@3.0.0",
-      "dependsOn": [
-        "pkg:pypi/mdurl@0.1.2"
-      ]
+      "dependsOn": ["pkg:pypi/mdurl@0.1.2"]
     },
     {
       "ref": "pkg:pypi/mdurl@0.1.2",
@@ -1930,16 +1725,11 @@
     },
     {
       "ref": "pkg:pypi/rich@13.7.1",
-      "dependsOn": [
-        "pkg:pypi/markdown-it-py@3.0.0",
-        "pkg:pypi/pygments@2.18.0"
-      ]
+      "dependsOn": ["pkg:pypi/markdown-it-py@3.0.0", "pkg:pypi/pygments@2.18.0"]
     },
     {
       "ref": "pkg:pypi/scipy@1.13.1",
-      "dependsOn": [
-        "pkg:pypi/numpy@1.26.4"
-      ]
+      "dependsOn": ["pkg:pypi/numpy@1.26.4"]
     },
     {
       "ref": "pkg:pypi/cython@3.0.10",
@@ -1947,9 +1737,7 @@
     },
     {
       "ref": "pkg:pypi/pyobjc-framework-cocoa@10.3.1",
-      "dependsOn": [
-        "pkg:pypi/pyobjc-core@10.3.1"
-      ]
+      "dependsOn": ["pkg:pypi/pyobjc-core@10.3.1"]
     },
     {
       "ref": "pkg:pypi/pyobjc-core@10.3.1",
@@ -1976,9 +1764,7 @@
     },
     {
       "ref": "pkg:pypi/sympy@1.12.1",
-      "dependsOn": [
-        "pkg:pypi/mpmath@1.3.0"
-      ]
+      "dependsOn": ["pkg:pypi/mpmath@1.3.0"]
     },
     {
       "ref": "pkg:pypi/tqdm@4.66.4",
