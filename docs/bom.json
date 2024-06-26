@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:3aec8b68-3a11-4e61-85aa-e0c45fe829f3",
+  "serialNumber": "urn:uuid:42916c71-42c3-4dfc-8ea3-0a5c405cc0c2",
   "version": 1,
   "metadata": {
-    "timestamp": "2024-06-24T18:00:59Z",
+    "timestamp": "2024-06-26T14:35:27Z",
     "tools": {
       "components": [
         {
@@ -54,7 +54,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-mHApuY"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-oICnoi"
             }
           ]
         }
@@ -135,7 +135,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-mHApuY"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-oICnoi"
             }
           ]
         }
@@ -189,7 +189,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-mHApuY"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-oICnoi"
             }
           ]
         }
@@ -216,7 +216,7 @@
             {
               "technique": "instrumentation",
               "confidence": 1,
-              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-mHApuY"
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-oICnoi"
             }
           ]
         }
@@ -740,12 +740,45 @@
           "value": "/Users/sayyant/Documents/semgrep/path-to-transitivity/path-to-transitivity-playground-v2/docs/requirements.txt"
         }
       ]
+    },
+    {
+      "group": "",
+      "name": "unknown",
+      "version": "latest",
+      "purl": "pkg:pypi/unknown@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/unknown@latest",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/var/folders/qn/x8wx71yj5777hnctqhs8zwgm0000gn/T/cdxgen-venv-oICnoi"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "setup.py"
+        }
+      ]
     }
   ],
   "dependencies": [
     {
       "ref": "pkg:pypi/docs@latest",
-      "dependsOn": []
+      "dependsOn": [
+        "pkg:pypi/unknown@latest",
+        "pkg:pypi/furo@2020.10.5b9",
+        "pkg:pypi/jinja2@3.1.4",
+        "pkg:pypi/pygments@2.18.0",
+        "pkg:pypi/sphinx-copybutton@0.5.2"
+      ]
     },
     {
       "ref": "pkg:pypi/beautifulsoup4@4.12.3",
@@ -880,6 +913,10 @@
       "dependsOn": [
         "pkg:pypi/sphinx@3.0.3"
       ]
+    },
+    {
+      "ref": "pkg:pypi/unknown@latest",
+      "dependsOn": []
     }
   ]
 }
