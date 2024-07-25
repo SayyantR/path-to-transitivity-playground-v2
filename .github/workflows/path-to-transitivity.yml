@@ -32,6 +32,9 @@ jobs:
           distribution: "temurin"
           java-version: "11"
 
+      - name: Clear hostedtoolcache for cdxgen
+        run: rm -rf /opt/hostedtoolcache/node/20.15.0/x64/lib/node_modules/@cyclonedx/cdxgen
+
       - name: Install CDXGen
         run: npm install -g @cyclonedx/cdxgen@10.7.0
 
